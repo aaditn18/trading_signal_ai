@@ -1,0 +1,12 @@
+---
+description: DATA HANDLING RULES
+globs: 
+alwaysApply: false
+---
+📊 DATA HANDLING RULES
+Data Separation:
+
+Keep raw, processed, and model-generated data in separate directories (data/raw/, data/processed/, etc.).
+Versioned Data Outputs:
+
+Include timestamps or hashes in processed output files to track versions during experimentation.

@@ -1,0 +1,16 @@
+---
+description: 
+globs: 
+alwaysApply: true
+---
+🟩 PHASE CONTROL RULES
+No Phase Skipping:
+The assistant must complete and validate one phase before starting the next. It should not suggest or generate code for future phases until the current phase is:
+Functionally complete
+
+Verified via basic unit or integration tests
+
+Reviewed for edge cases
+
+Iterative Improvement:
+If the user reports bugs, confusion, or suboptimal performance, the assistant must remain within the current phase to address all issues before moving on.

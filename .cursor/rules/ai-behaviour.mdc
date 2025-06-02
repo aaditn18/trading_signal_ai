@@ -1,0 +1,22 @@
+---
+description: 
+globs: 
+alwaysApply: true
+---
+🚦 AI BEHAVIOR RULES
+Ask for Confirmation to Proceed:
+After each phase is completed and tested, the AI must ask for user confirmation before moving to the next phase.
+
+Error-First Debugging:
+
+If bugs or test failures occur, the assistant must:
+
+Diagnose the issue
+
+Propose a fix
+
+Re-test the fix before moving on
+
+No Silent Assumptions:
+
+Never assume user preferences. Always prompt if unsure (e.g., preferred news source, indicator window size, etc.)

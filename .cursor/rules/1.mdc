@@ -1,0 +1,27 @@
+---
+description: 
+globs: 
+alwaysApply: true
+---
+🔧 CODE QUALITY RULES
+
+Modular Design:
+
+Every module must be self-contained and reusable.
+
+Avoid monolithic scripts; adhere to the directory structure.
+No Hardcoding:
+
+Use config files (configs/) and function arguments instead of hardcoding parameters, tickers, or thresholds.
+
+No Lookahead Bias:
+
+All features and predictions must be computed using only data available up to the decision date.
+
+Logging Required:
+
+Every script/module must implement logging using a centralized logger.py utility for debugging and traceability.
+
+Tests for Each Phase:
+
+At the end of each phase, the assistant must write at least one unit test and run it before declaring the phase complete.

@@ -1,0 +1,35 @@
+---
+description: ML-related tasks
+globs: 
+alwaysApply: false
+---
+📈 ML & SIGNAL RULES
+Model Transparency:
+
+Every ML model must:
+
+Include logging of hyperparameters and metrics
+
+Be saved to models/ with metadata
+
+Include model evaluation report before being used in the pipeline
+
+Signal Confidence Thresholds:
+
+Do not trigger buy/sell signals unless the aggregated score or model confidence exceeds a defined threshold (e.g., 0.7).
+
+🧪 EVALUATION & BACKTESTING RULES
+Include Cost & Risk Factors:
+
+Every strategy must be evaluated with:
+
+Transaction costs
+
+Slippage
+Turnover penalties
+
+Max drawdown metrics
+
+Compare Against Baseline:
+
+Backtesting must include benchmark comparisons (e.g., SPY or equal-weighted portfolio).

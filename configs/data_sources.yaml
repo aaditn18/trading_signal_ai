@@ -1,0 +1,14 @@
+# API Keys for Data Sources
+api_keys:
+  alpha_vantage: 'MH7B714JND6I8WNL'
+
+# Data Sources Configuration
+sources:
+  market_data: 'alpha_vantage'  # Default market data source
+  news: 'alpha_vantage'         # Default news data source
+
+# Alpha Vantage Specific Settings
+alpha_vantage:
+  base_url: 'https://www.alphavantage.co/query'
+  output_format: 'json'
+  max_calls_per_minute: 5       # API rate limit 
